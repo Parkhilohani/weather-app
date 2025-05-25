@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Today's Weather</h1>
+        <div class="search">
+            <input type="text" id="cityname" placeholder="Enter city name" spellcheck="false">
+            <button class="searchbtn">
+                <img src="images.JPEG/search_btn-removebg-preview.png" alt="search-btn">
+            </button>
+        </div>
+        <div class="weather">
+            <img  src="images.JPEG/weather-img-removebg-preview.png" class="weather-icon" alt="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="cityname">Bihar</h2>
+            <div class="detail">
+                <div class="col">
+                    <img 
+                    class="images"
+                    src="images.JPEG/humidity-img-removebg-preview.png"
+                    alt="humidity-image"/>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images.JPEG/wind-speed-img-removebg-preview.png"
+                    alt="wind-image"/>
+                    <div>
+                        <p class="wind">14 Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
