@@ -22,5 +22,8 @@ The app allows users to enter a city name, and it fetches and displays real-time
 Credits
 Weather data provided by OpenWeather.
 
+![Parkhilohani_weather-app_ weather of local area using fetch API - Google Chrome 5_25_2025 5_14_03 PM](https://github.com/user-attachments/assets/cf94efce-0083-4de5-94c4-dcea92b629b4)
+
+
 ![Weather API - Google Chrome 5_25_2025 5_00_12 PM](https://github.com/user-attachments/assets/2b89f514-9b98-412d-bf4f-a49e4057d9b3)
 
